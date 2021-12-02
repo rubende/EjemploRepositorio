@@ -1,7 +1,7 @@
 # EjemploRepositorio
 Ejemplo de repositorio para la asignatura Informática Industrial.
 
-Sigue el progreso del proyecto en Trello: <img alt="Trello" src="https://img.shields.io/badge/Trello%20-%23026AA7.svg?&style=for-the-badge&logo=Trello&logoColor=white" href=https://trello.com/b/5ZWS7tnC/ejemplo-infind/>
+Sigue el progreso del proyecto en Trello: <img alt="Trello" href=https://trello.com/b/5ZWS7tnC/ejemplo-infind/ src="https://img.shields.io/badge/Trello%20-%23026AA7.svg?&style=for-the-badge&logo=Trello&logoColor=white" >
 
 ## Tabla de Contenidos
 * [Descripción del proyecto](#descripción-del-proyecto)
