@@ -1,0 +1,117 @@
+[
+    {
+        "id": "3fa40b4a6ba33997",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e34116810d072e7f",
+        "type": "mqtt in",
+        "z": "3fa40b4a6ba33997",
+        "name": "",
+        "topic": "outTopic",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "dfefd42be31cab40",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "62589f101ecabd3e"
+            ]
+        ]
+    },
+    {
+        "id": "d32efc1907c29d0d",
+        "type": "inject",
+        "z": "3fa40b4a6ba33997",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "inTopic",
+        "payload": "Hola",
+        "payloadType": "str",
+        "x": 350,
+        "y": 300,
+        "wires": [
+            [
+                "772483062363e897"
+            ]
+        ]
+    },
+    {
+        "id": "62589f101ecabd3e",
+        "type": "debug",
+        "z": "3fa40b4a6ba33997",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "772483062363e897",
+        "type": "mqtt out",
+        "z": "3fa40b4a6ba33997",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "dfefd42be31cab40",
+        "x": 510,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "dfefd42be31cab40",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
