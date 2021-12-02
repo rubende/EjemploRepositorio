@@ -39,4 +39,4 @@ Se incluye todo el software necesario para hacer funcionar el proyecto.
 This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details
 
 ## Galería
-<embed src="/Documentos y manuales/esquema_conexion.pdf" width="512"> 
+<iframe src="/Documentos y manuales/esquema_conexion.pdf" width="512"> 
