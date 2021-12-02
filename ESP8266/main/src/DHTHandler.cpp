@@ -3,9 +3,10 @@
 OurDHT::OurDHT(int pin)
 {
   _dht.setup(pin, DHTesp::DHT11);
+  _time = millis();
 }
 
-void OurDHT::read(struct registro_datos datos)
+void OurDHT::read(struct registro_datos& datos)
 {
   while(_time + _dht.getMinimumSamplingPeriod() < millis()){}
   _time = millis();

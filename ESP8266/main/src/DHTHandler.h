@@ -14,10 +14,10 @@ class OurDHT
 {
   public:
     OurDHT(int pin);
-    void read(struct registro_datos datos);
+    void read(struct registro_datos& datos);
   private:
     DHTesp _dht;
-    unsigned long _time=0;
+    unsigned long _time;
 };
 
 
